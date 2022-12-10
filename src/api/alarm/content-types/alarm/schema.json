@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alarms",
+  "info": {
+    "singularName": "alarm",
+    "pluralName": "alarms",
+    "displayName": "Alarm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "active": {
+      "type": "boolean",
+      "default": false
+    },
+    "days": {
+      "type": "json"
+    },
+    "description": {
+      "type": "text"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "hour": {
+      "type": "integer"
+    },
+    "minutes": {
+      "type": "integer"
+    },
+    "repeating": {
+      "type": "boolean"
+    },
+    "snoozeInterval": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
